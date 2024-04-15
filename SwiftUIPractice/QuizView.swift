@@ -1,5 +1,5 @@
 //
-//  QuizView.swift
+//  RecommendView.swift
 //  SwiftUIPractice
 //
 //  Created by 최서경 on 4/15/24.

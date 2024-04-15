@@ -11,8 +11,8 @@
 		2BC42A822BCD09E600258711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A812BCD09E600258711 /* ContentView.swift */; };
 		2BC42A842BCD09E700258711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC42A832BCD09E700258711 /* Assets.xcassets */; };
 		2BC42A872BCD09E700258711 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC42A862BCD09E700258711 /* Preview Assets.xcassets */; };
-		2BC42A8E2BCD0A7400258711 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A8D2BCD0A7400258711 /* RecommendView.swift */; };
-		2BC42A902BCD0A7E00258711 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A8F2BCD0A7E00258711 /* QuizView.swift */; };
+		2BC42A8E2BCD0A7400258711 /* QuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A8D2BCD0A7400258711 /* QuizView.swift */; };
+		2BC42A902BCD0A7E00258711 /* RecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A8F2BCD0A7E00258711 /* RecommendView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,8 +21,8 @@
 		2BC42A812BCD09E600258711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2BC42A832BCD09E700258711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BC42A862BCD09E700258711 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2BC42A8D2BCD0A7400258711 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
-		2BC42A8F2BCD0A7E00258711 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2BC42A8D2BCD0A7400258711 /* QuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizView.swift; sourceTree = "<group>"; };
+		2BC42A8F2BCD0A7E00258711 /* RecommendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +59,8 @@
 				2BC42A812BCD09E600258711 /* ContentView.swift */,
 				2BC42A832BCD09E700258711 /* Assets.xcassets */,
 				2BC42A852BCD09E700258711 /* Preview Content */,
-				2BC42A8D2BCD0A7400258711 /* RecommendView.swift */,
-				2BC42A8F2BCD0A7E00258711 /* QuizView.swift */,
+				2BC42A8D2BCD0A7400258711 /* QuizView.swift */,
+				2BC42A8F2BCD0A7E00258711 /* RecommendView.swift */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -144,8 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BC42A822BCD09E600258711 /* ContentView.swift in Sources */,
-				2BC42A902BCD0A7E00258711 /* QuizView.swift in Sources */,
-				2BC42A8E2BCD0A7400258711 /* RecommendView.swift in Sources */,
+				2BC42A902BCD0A7E00258711 /* RecommendView.swift in Sources */,
+				2BC42A8E2BCD0A7400258711 /* QuizView.swift in Sources */,
 				2BC42A802BCD09E600258711 /* SwiftUIPracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
