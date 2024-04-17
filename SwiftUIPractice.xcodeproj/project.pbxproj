@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B7EB2442BCF9AA80005AF17 /* RedModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EB2432BCF9AA80005AF17 /* RedModifier.swift */; };
+		2B7EB2462BCF9AB30005AF17 /* BlueModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7EB2452BCF9AB30005AF17 /* BlueModifier.swift */; };
 		2BC42A802BCD09E600258711 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A7F2BCD09E600258711 /* SwiftUIPracticeApp.swift */; };
 		2BC42A822BCD09E600258711 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BC42A812BCD09E600258711 /* ContentView.swift */; };
 		2BC42A842BCD09E700258711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BC42A832BCD09E700258711 /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2B7EB2432BCF9AA80005AF17 /* RedModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedModifier.swift; sourceTree = "<group>"; };
+		2B7EB2452BCF9AB30005AF17 /* BlueModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueModifier.swift; sourceTree = "<group>"; };
 		2BC42A7C2BCD09E600258711 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BC42A7F2BCD09E600258711 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		2BC42A812BCD09E600258711 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B7EB2422BCF9A940005AF17 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				2B7EB2432BCF9AA80005AF17 /* RedModifier.swift */,
+				2B7EB2452BCF9AB30005AF17 /* BlueModifier.swift */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
 		2BC42A732BCD09E600258711 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +74,7 @@
 				2BC42A852BCD09E700258711 /* Preview Content */,
 				2BC42A8D2BCD0A7400258711 /* QuizView.swift */,
 				2BC42A8F2BCD0A7E00258711 /* RecommendView.swift */,
+				2B7EB2422BCF9A940005AF17 /* Modifier */,
 			);
 			path = SwiftUIPractice;
 			sourceTree = "<group>";
@@ -143,10 +157,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7EB2462BCF9AB30005AF17 /* BlueModifier.swift in Sources */,
 				2BC42A822BCD09E600258711 /* ContentView.swift in Sources */,
 				2BC42A902BCD0A7E00258711 /* RecommendView.swift in Sources */,
 				2BC42A8E2BCD0A7400258711 /* QuizView.swift in Sources */,
 				2BC42A802BCD09E600258711 /* SwiftUIPracticeApp.swift in Sources */,
+				2B7EB2442BCF9AA80005AF17 /* RedModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
